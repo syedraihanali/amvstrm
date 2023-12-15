@@ -63,11 +63,11 @@ export default {
       layers: [
         {
           name: "amv_logo",
-          html: `<img src="/logo.png" width="100px">`,
+          html: `<img src="/logo.png" width="0px">`,
           style: {
             position: "absolute",
-            top: "20px",
-            right: "20px",
+            top: "-20px",
+            right: "-20px",
           },
         },
       ],
